@@ -1,12 +1,12 @@
 {
-  "name": "repo-template",
-  "version": "0.1.2",
-  "description": "Basic Repository Template",
+  "name": "stocks",
+  "version": "0.0.0",
+  "description": "stocks",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/patevs/repo-template.git"
+    "url": "git+https://github.com/patevs/stocks.git"
   },
   "scripts": {
     "commit": "git-cz",
