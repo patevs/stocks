@@ -10,6 +10,3 @@
 [submodule "stonks"]
 	path = stonks
 	url = https://github.com/ericm/stonks
-[submodule "ticker.sh"]
-	path = ticker.sh
-	url = https://github.com/pstadler/ticker.sh
