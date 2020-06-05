@@ -1,0 +1,3 @@
+[submodule "stock-cli"]
+	path = stock-cli
+	url = https://github.com/evonshahriar/stock-cli
