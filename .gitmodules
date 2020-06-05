@@ -7,3 +7,6 @@
 	url = https://github.com/evonshahriar/stock-cli
 
 # EOF #
+[submodule "stonks"]
+	path = stonks
+	url = https://github.com/ericm/stonks
