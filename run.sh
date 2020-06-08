@@ -12,6 +12,7 @@ while true;
     ^NZ50 \
     ASP.NZ NPF.NZ \
     GMT.NZ IFT.NZ KPG.NZ MCY.NZ \
+    CEN.NZ MEL.NZ GNE.NZ SPK.NZ RYM.NZ \
     KMD.NZ AIA.NZ MLN.NZ KFL.NZ \
     POT.NZ ARG.NZ SPG.NZ MET.NZ;
   sleep 30;
