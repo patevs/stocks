@@ -1,6 +1,6 @@
-# stocks
+# Stocks
 
-> Resources related to stock market analysis and trading.
+> Scripts and resources related to stock market analysis and trading.
 
 ---
 
