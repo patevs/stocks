@@ -1,7 +1,7 @@
 {
   "name": "stocks",
   "version": "1.2.0",
-  "description": "Resources related to stock market analysis and trading",
+  "description": "Scripts and resources related to stock market analysis and trading",
   "author": "PatEvs",
   "license": "MIT",
   "repository": {
