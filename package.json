@@ -9,6 +9,7 @@
     "url": "git+https://github.com/patevs/stocks.git"
   },
   "scripts": {
+    "postinstall": "git submodule update --init",
     "commit": "git-cz",
     "release": "np",
     "test": "echo \"Error: no test specified\" && exit 0"
