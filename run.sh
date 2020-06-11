@@ -2,35 +2,35 @@
 # run.sh #
 # ------ #
 
-# red=$'\e[1;31m'
-# grn=$'\e[1;32m'
-# yel=$'\e[1;33m'
-# blu=$'\e[1;34m'
-# mag=$'\e[1;35m'
-# cyn=$'\e[1;36m'
+# Foreground colors
+FG_BLACK=$'\e[30m'
 
-FG_BLACK=$'\e[1;30m'
-FG_WHITE=$'\e[1;97m'
+# Background colors
+BG_YELLOW=$'\e[43m'
+# BG_MAGENTA=$'\e[45m'
 
-BG_GREEN=$'\e[1;42m'
-BG_BLUE=$'\e[1;44m'
-# BG_MAGENTA=$'\e[1;45m'
-BG_MAGENTA=$'\e[45m'
-
-end=$'\e[0m'
-
-# echo -e "\e[42m ticker.sh \e[28m"
+# No color
+END=$'\e[0m'
 
 cd ticker.sh
 
 while true;
   do clear;
-  printf "\n${BG_MAGENTA} ticker.sh ${end} \n\n"
+  # printf "\n${BG_MAGENTA}  ticker.sh  ${END} \n\n"
+  printf "${BG_YELLOW}${FG_BLACK} CURRENCIES ${END}\n\n"
   ./ticker.sh \
-    NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X \
-    CL=F GC=F SI=F \
-    ^NZ50 ^AXJO ^NDX ^DJI \
-    ASP.NZ NPF.NZ \
+    NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X;
+  printf "\n${BG_YELLOW}${FG_BLACK} EXCHANGES ${END}\n\n"
+  ./ticker.sh \
+    ^NZ50 ^AXJO ^NDX ^DJI;
+  printf "\n${BG_YELLOW}${FG_BLACK} COMMODITIES ${END}\n\n"
+  ./ticker.sh \
+    CL=F GC=F SI=F;
+  printf "\n${BG_YELLOW}${FG_BLACK} ETFs ${END}\n\n"
+  ./ticker.sh \
+    ASP.NZ NPF.NZ;
+  printf "\n${BG_YELLOW}${FG_BLACK} COMPANIES ${END}\n\n"
+  ./ticker.sh \
     GMT.NZ IFT.NZ KPG.NZ MCY.NZ MET.NZ \
     POT.NZ CEN.NZ MEL.NZ GNE.NZ SPK.NZ \
     KMD.NZ AIA.NZ AIR.NZ MLN.NZ KFL.NZ \
@@ -39,9 +39,16 @@ while true;
 done
 
 # while true;
-#   do clear;
-#   ./ticker.sh NZDUSD=X NZDEUR=X GC=F CL=F ^NZ50 ASP.NZ NPF.NZ GMT.NZ IFT.NZ KPG.NZ MCY.NZ KMD.NZ AIA.NZ MLN.NZ KFL.NZ POT.NZ ARG.NZ SPG.NZ MET.NZ;
-#   sleep 10;
+#  ./ticker.sh \
+#    NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X \
+#    CL=F GC=F SI=F \
+#    ^NZ50 ^AXJO ^NDX ^DJI \
+#    ASP.NZ NPF.NZ \
+#    GMT.NZ IFT.NZ KPG.NZ MCY.NZ MET.NZ \
+#    POT.NZ CEN.NZ MEL.NZ GNE.NZ SPK.NZ \
+#    KMD.NZ AIA.NZ AIR.NZ MLN.NZ KFL.NZ \
+#    RYM.NZ ARG.NZ SPG.NZ SKT.NZ SKC.NZ ;
+#  sleep 30;
 # done
 
 # cd stock-cli
