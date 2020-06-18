@@ -20,12 +20,12 @@ while true;
   printf "${BG_YELLOW}${FG_BLACK} CURRENCIES ${END}\n\n"
   ./ticker.sh \
     NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X;
-  printf "\n${BG_YELLOW}${FG_BLACK} EXCHANGES ${END}\n\n"
-  ./ticker.sh \
-    ^NZ50 ^AXJO ^NDX ^DJI;
   printf "\n${BG_YELLOW}${FG_BLACK} COMMODITIES ${END}\n\n"
   ./ticker.sh \
     CL=F GC=F SI=F;
+  printf "\n${BG_YELLOW}${FG_BLACK} EXCHANGES ${END}\n\n"
+  ./ticker.sh \
+    ^NZ50 ^AXJO ^NDX ^DJI;
   printf "\n${BG_YELLOW}${FG_BLACK} ETFs ${END}\n\n"
   ./ticker.sh \
     ASP.NZ NPF.NZ;
