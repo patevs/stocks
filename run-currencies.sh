@@ -7,7 +7,6 @@ FG_BLACK=$'\e[30m'
 
 # Background colors
 BG_YELLOW=$'\e[43m'
-# BG_MAGENTA=$'\e[45m'
 
 # No color
 END=$'\e[0m'
