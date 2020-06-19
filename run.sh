@@ -17,6 +17,7 @@ cd ticker.sh
 while true;
   do clear;
   # printf "\n${BG_MAGENTA}  ticker.sh  ${END} \n\n"
+  # TODO: Call run-currencies.sh instead
   printf "${BG_YELLOW}${FG_BLACK} CURRENCIES ${END}\n\n"
   ./ticker.sh \
     NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X;
@@ -26,6 +27,7 @@ while true;
   printf "\n${BG_YELLOW}${FG_BLACK} EXCHANGES ${END}\n\n"
   ./ticker.sh \
     ^NZ50 ^AXJO ^NDX ^DJI;
+  # TODO: Call run-companies.sh instead
   printf "\n${BG_YELLOW}${FG_BLACK} ETFs ${END}\n\n"
   ./ticker.sh \
     ASP.NZ NPF.NZ;
