@@ -2,10 +2,6 @@
 # .gitmodules #
 # ----------- #
 
-[submodule "stock-cli"]
-	path = stock-cli
-	url = https://github.com/evonshahriar/stock-cli
-
 [submodule "ticker.sh"]
 	path = ticker.sh
 	url = https://github.com/pstadler/ticker.sh
