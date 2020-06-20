@@ -25,6 +25,8 @@ log(info("\n Running Post-Install Script \n"))
 ;[
   // Initialize git submodules
   { command: "git submodule update --init" },
+
+  // TODO: Copy ./ticker.sh/ticker.sh -> ./ticker.sh
 ]
   .filter(({ onlyPlatforms }) => !onlyPlatforms || onlyPlatforms.includes(os.platform()))
   .forEach(commandAndOptions => {
