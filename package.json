@@ -15,7 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "script-progress": "^1.0.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
