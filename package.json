@@ -49,5 +49,8 @@
     "publish": false,
     "preview": false,
     "releaseDraft": true
+  },
+  "dependencies": {
+    "chalk": "^4.1.0"
   }
 }
