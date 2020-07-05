@@ -25,6 +25,7 @@ while true;
   printf "\n${BG_YELLOW}${FG_BLACK} EXCHANGES ${END}\n\n"
   ./ticker.sh \
     ^NZ50 ^AXJO ^NDX ^DJI;
+  sleep 30
 done
 
 # EOF #
