@@ -14,5 +14,6 @@
 * [`stock-cli`](https://github.com/evonshahriar/stock-cli) Check the stock market price update from the CLI using Yahoo Finance API.
 * [`StockPredictionRNN`](https://github.com/dzitkowskik/StockPredictionRNN) High Frequency Trading Price Prediction using LSTM Recursive Neural Networks.
 * [`stonks`](https://github.com/ericm/stonks) Terminal based stock visualizer and tracker that displays realtime stocks in graph format.
+* [`UnusualVolumeDetector`](https://github.com/SamPom100/UnusualVolumeDetector) Gets the last 5 months of volume history for every ticker, and alerts you when a stock's volume exceeds 10 standard deviations from the mean within the last 3 days.
 
 ---
