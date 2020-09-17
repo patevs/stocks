@@ -10,8 +10,7 @@
   },
   "scripts": {
     "postinstall": "script-progress node ./bin/postInstall",
-    "release": "np",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "release": "np"
   },
   "dependencies": {
     "chalk": "^4.1.0",
