@@ -10,6 +10,7 @@
   },
   "scripts": {
     "postinstall": "script-progress node ./bin/postInstall",
+    "start": "bash run.sh",
     "release": "np"
   },
   "dependencies": {
