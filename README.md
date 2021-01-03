@@ -10,6 +10,7 @@
 
 [](.)
 
+* [`qlib`](https://github.com/microsoft/qlib) AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment.
 * [`sharesies`](https://github.com/JorisCoppieters/sharesies) Utility for recommending which funds to invest/sell for Sharesies.
 * [`stock-cli`](https://github.com/evonshahriar/stock-cli) Check the stock market price update from the CLI using Yahoo Finance API.
 * [`StockPredictionRNN`](https://github.com/dzitkowskik/StockPredictionRNN) High Frequency Trading Price Prediction using LSTM Recursive Neural Networks.
