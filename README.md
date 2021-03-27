@@ -10,6 +10,7 @@
 
 [](.)
 
+* [`cliStocksTracker`](https://github.com/ConradSelig/cliStocksTracker) A command line utility for tracking a stock market portfolio. Primarily featuring high resolution braille graphs.
 * [`cointop`](https://github.com/miguelmota/cointop) Interactive terminal based UI application for tracking cryptocurrencies.
 * [`market-toolkit`](https://github.com/ckz8780/market-toolkit) A collection of stock market resources and tools.
 * [`qlib`](https://github.com/microsoft/qlib) AI-oriented quantitative investment platform, which aims to realize the potential, empower the research, and create the value of AI technologies in quantitative investment.
