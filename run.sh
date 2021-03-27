@@ -33,10 +33,11 @@ while true;
     ASP.NZ NPF.NZ;
   printf "\n${BG_YELLOW}${FG_BLACK} COMPANIES ${END}\n\n"
   ./ticker.sh \
-    GME GMT.NZ IFT.NZ KPG.NZ MCY.NZ MET.NZ \
+    GME GMT.NZ IFT.NZ KPG.NZ MCY.NZ \
     POT.NZ PPH.NZ CEN.NZ MEL.NZ GNE.NZ \
     SPK.NZ KMD.NZ AIA.NZ AIR.NZ MLN.NZ \
     KFL.NZ RYM.NZ ARG.NZ SPG.NZ SKT.NZ SKC.NZ ;
+    # MET.NZ
   sleep 30;
 done
 
