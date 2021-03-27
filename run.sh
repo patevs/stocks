@@ -20,7 +20,7 @@ while true;
   # TODO: Call run-currencies.sh instead
   printf "${BG_YELLOW}${FG_BLACK} CURRENCIES ${END}\n\n"
   ./ticker.sh \
-    NZDUSD=X NZDEUR=X NZDAUD=X BTCUSD=X;
+    NZDUSD=X NZDEUR=X NZDAUD=X; # BTCUSD=X
   # printf "\n${BG_YELLOW}${FG_BLACK} COMMODITIES ${END}\n\n"
   # ./ticker.sh \
   #   CL=F GC=F SI=F;
