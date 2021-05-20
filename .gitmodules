@@ -1,6 +1,5 @@
-# ----------- #
-# .gitmodules #
-# ----------- #
+# .gitmodules
+# -----------
 
 [submodule "ticker.sh"]
 	path = ticker.sh

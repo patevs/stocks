@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # run.sh
+# ------
 
 # Foreground colors
 FG_BLACK=$'\e[30m'
