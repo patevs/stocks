@@ -15,7 +15,7 @@
     "release": "np"
   },
   "dependencies": {
-    "chalk": "^4.1.1",
+    "chalk": "^4.1.2",
     "script-progress": "^1.0.5"
   },
   "devDependencies": {
