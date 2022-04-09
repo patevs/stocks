@@ -9,6 +9,7 @@
     "url": "git+https://github.com/patevs/stocks.git"
   },
   "scripts": {
+    "prepare": "husky install",
     "postinstall": "script-progress node ./bin/postInstall",
     "start": "bash run.sh",
     "updates": "npx ncu",
@@ -37,11 +38,6 @@
         0,
         "never"
       ]
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
