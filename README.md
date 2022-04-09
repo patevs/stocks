@@ -27,5 +27,6 @@
 * [`UnusualVolumeDetector`](https://github.com/SamPom100/UnusualVolumeDetector) Gets the last 5 months of volume history for every ticker, and alerts you when a stock's volume exceeds 10 standard deviations from the mean within the last 3 days.
 * [`yf`](https://github.com/BillGatesCat/yf) CLI tool that allows for quick and easy access to Yahoo! Finance market data.
 * [`yfinance`](https://github.com/ranaroussi/yfinance) Yahoo! Finance market data downloader (+faster Pandas Datareader).
+* [`OpenBBTerminal`](https://github.com/OpenBB-finance/OpenBBTerminal) Investment Research for Everyone, Anywhere.
 
 ---
