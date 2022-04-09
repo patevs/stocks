@@ -8,6 +8,10 @@
     "type": "git",
     "url": "git+https://github.com/patevs/stocks.git"
   },
+  "type": "module",
+  "engines": {
+    "node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+  },
   "scripts": {
     "prepare": "husky install",
     "postinstall": "script-progress node ./bin/postInstall",
