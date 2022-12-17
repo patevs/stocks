@@ -17,7 +17,7 @@
     "postinstall": "script-progress node ./bin/postInstall",
     "start": "bash run.sh",
     "updates": "npx ncu",
-    "release": "np"
+    "release": "npx np"
   },
   "dependencies": {
     "chalk": "^5.2.0",
